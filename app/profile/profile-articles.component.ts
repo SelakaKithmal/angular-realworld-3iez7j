@@ -9,7 +9,6 @@ import { ArticleListConfig, Profile } from "../shared";
 })
 export class ProfileArticlesComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
-
   profile: Profile;
   articlesConfig: ArticleListConfig = new ArticleListConfig();
 
